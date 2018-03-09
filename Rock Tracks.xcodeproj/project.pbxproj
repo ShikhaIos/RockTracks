@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A7123C7B20529A7800703855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123C7A20529A7800703855 /* AppDelegate.swift */; };
-		A7123C7D20529A7800703855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123C7C20529A7800703855 /* ViewController.swift */; };
 		A7123C8020529A7800703855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7123C7E20529A7800703855 /* Main.storyboard */; };
 		A7123C8220529A7800703855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7123C8120529A7800703855 /* Assets.xcassets */; };
 		A7123C8520529A7800703855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7123C8320529A7800703855 /* LaunchScreen.storyboard */; };
 		A7123C9020529A7800703855 /* Rock_TracksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123C8F20529A7800703855 /* Rock_TracksTests.swift */; };
 		A7123C9B20529A7800703855 /* Rock_TracksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123C9A20529A7800703855 /* Rock_TracksUITests.swift */; };
+		A7123CAA20529ADD00703855 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123CA920529ADD00703855 /* ServiceManager.swift */; };
+		A7123CAC20529B7200703855 /* JsonSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123CAB20529B7200703855 /* JsonSerialization.swift */; };
+		A7123CAE20529C5100703855 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123CAD20529C5100703855 /* Constant.swift */; };
+		A7123CB12052A00D00703855 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123CB02052A00D00703855 /* Track.swift */; };
+		A7123CB42052AA5300703855 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123CB32052AA5300703855 /* TrackCell.swift */; };
+		A7123CB72052D0E600703855 /* TrackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123CB62052D0E600703855 /* TrackDetailViewController.swift */; };
+		A7123CBA2052E88B00703855 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123CB92052E88B00703855 /* TrackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		A7123C7720529A7800703855 /* Rock Tracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Tracks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7123C7A20529A7800703855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7123C7C20529A7800703855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7123C7F20529A7800703855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7123C8120529A7800703855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7123C8420529A7800703855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		A7123C9620529A7800703855 /* Rock TracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock TracksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7123C9A20529A7800703855 /* Rock_TracksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_TracksUITests.swift; sourceTree = "<group>"; };
 		A7123C9C20529A7800703855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7123CA920529ADD00703855 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		A7123CAB20529B7200703855 /* JsonSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonSerialization.swift; sourceTree = "<group>"; };
+		A7123CAD20529C5100703855 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A7123CB02052A00D00703855 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		A7123CB32052AA5300703855 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		A7123CB62052D0E600703855 /* TrackDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailViewController.swift; sourceTree = "<group>"; };
+		A7123CB92052E88B00703855 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,13 @@
 		A7123C7920529A7800703855 /* Rock Tracks */ = {
 			isa = PBXGroup;
 			children = (
+				A77AC1B72052ECE000015817 /* View */,
+				A7123CB82052E84200703855 /* Constant */,
+				A7123CB52052D0BE00703855 /* ViewController */,
+				A7123CB22052AA1B00703855 /* CustomCell */,
+				A7123CAF20529FB200703855 /* Modal */,
+				A7123CA820529AAD00703855 /* WebserviceClass */,
 				A7123C7A20529A7800703855 /* AppDelegate.swift */,
-				A7123C7C20529A7800703855 /* ViewController.swift */,
-				A7123C7E20529A7800703855 /* Main.storyboard */,
 				A7123C8120529A7800703855 /* Assets.xcassets */,
 				A7123C8320529A7800703855 /* LaunchScreen.storyboard */,
 				A7123C8620529A7800703855 /* Info.plist */,
@@ -123,6 +139,56 @@
 				A7123C9C20529A7800703855 /* Info.plist */,
 			);
 			path = "Rock TracksUITests";
+			sourceTree = "<group>";
+		};
+		A7123CA820529AAD00703855 /* WebserviceClass */ = {
+			isa = PBXGroup;
+			children = (
+				A7123CAB20529B7200703855 /* JsonSerialization.swift */,
+				A7123CA920529ADD00703855 /* ServiceManager.swift */,
+			);
+			path = WebserviceClass;
+			sourceTree = "<group>";
+		};
+		A7123CAF20529FB200703855 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				A7123CB02052A00D00703855 /* Track.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		A7123CB22052AA1B00703855 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				A7123CB32052AA5300703855 /* TrackCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		A7123CB52052D0BE00703855 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A7123CB62052D0E600703855 /* TrackDetailViewController.swift */,
+				A7123CB92052E88B00703855 /* TrackViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A7123CB82052E84200703855 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A7123CAD20529C5100703855 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		A77AC1B72052ECE000015817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7123C7E20529A7800703855 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +259,7 @@
 				TargetAttributes = {
 					A7123C7620529A7800703855 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					A7123C8A20529A7800703855 = {
 						CreatedOnToolsVersion = 9.2;
@@ -259,8 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7123C7D20529A7800703855 /* ViewController.swift in Sources */,
+				A7123CB42052AA5300703855 /* TrackCell.swift in Sources */,
+				A7123CBA2052E88B00703855 /* TrackViewController.swift in Sources */,
+				A7123CB72052D0E600703855 /* TrackDetailViewController.swift in Sources */,
 				A7123C7B20529A7800703855 /* AppDelegate.swift in Sources */,
+				A7123CAE20529C5100703855 /* Constant.swift in Sources */,
+				A7123CAC20529B7200703855 /* JsonSerialization.swift in Sources */,
+				A7123CAA20529ADD00703855 /* ServiceManager.swift in Sources */,
+				A7123CB12052A00D00703855 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +498,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: A-1 Technology Inc";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
 				INFOPLIST_FILE = "Rock Tracks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.a1distribute.Rock-Tracks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e71522c1-6486-4583-83b4-7852a46497e8";
+				PROVISIONING_PROFILE_SPECIFIER = Distribute_A1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +517,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: A-1 Technology Inc";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Rock Tracks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.a1distribute.Rock-Tracks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e71522c1-6486-4583-83b4-7852a46497e8";
+				PROVISIONING_PROFILE_SPECIFIER = Distribute_A1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
